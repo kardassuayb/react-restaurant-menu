@@ -1,0 +1,54 @@
+{
+    "tabs":[
+        {
+        "id":"1", 
+        "name":"SOĞUK BAŞLANGIÇLAR", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":"2",
+        "name":"SICAK BAŞLANGIÇLAR", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        }
+    ],
+    
+    "products":[
+            {
+            "id":"1", 
+            "name":"BURRATA", 
+            "image":"Ürün Görseli",
+            "description":"%100 Manda sütüyle üretilmiş Buffa mozerellası ve kremasından meydana gelen taze İtalyan peyniri",
+            "price":"330.00",
+            "currency":"TRY",
+            "userId": 1
+            },		
+            {
+            "id":"2",
+            "name":"PASTIRMALI HUMUS", 
+            "image":"Ürün Görseli",
+            "description":"Tahin, Tuz, Sarımsak ve Hatay Humusu",
+            "price":"150.00",
+            "currency":"TRY",
+            "userId": 2
+            },
+            
+            {
+                "id":"3",
+                "name":"PASTIRMALI MÜCVER", 
+                "image":"Ürün Görseli",
+                "description":"HAVUÇ,KABAK VE KAŞAR PEYNİRİ İLE ELDE ETTİĞİMİZ İÇ HARCI GALETA UNU,PANKO VE YUMURTAYLA KAPLAYIP SÜZME YOĞURT İLE SERVİS EDİYORUZ.",
+                "price":"180.00",
+                "currency":"TRY"
+                },
+                {
+                "id":"4",
+                "name":"ATOM KOKOREÇ", 
+                "image":"Ürün Görseli",
+                "description":"Balıkesir atom kokoreç",
+                "price":"280.00",
+                "currency":"TRY"
+                }
+            ]
+    }
