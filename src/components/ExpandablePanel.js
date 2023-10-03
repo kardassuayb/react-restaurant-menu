@@ -8,9 +8,9 @@ const ExpandablePanel = ({ header, children }) => {
   };
 
   return (
-    <div className="mb-2 border rounded ">
+    <div className="mb-2 border rounded bg-slate-50">
       <div
-        className="flex p-2 justify-between items-center cursor-pointer bg-white"
+        className="flex p-2 justify-between items-center cursor-pointer bg-slate-50"
         onClick={handleClick}
       >
         <div className="flex flex-row items-center justify-between color-black ">
@@ -20,7 +20,7 @@ const ExpandablePanel = ({ header, children }) => {
           {expanded ? <GoChevronDown /> : <GoChevronLeft />}
         </div> */}
       </div>
-      {expanded && <div className="p-2 border-t bg-white">{children}</div>}
+      {expanded && <div className="p-2 border-t ">{children}</div>}
     </div>
   );
 };

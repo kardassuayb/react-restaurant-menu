@@ -13,7 +13,25 @@ const TitleItem = ({ title }) => {
     content = <div>Veri Yükleme Hatası!!</div>;
   } else {
     content = data.map((item) => {
-      return <div key={item.id}>{item.name}</div>;
+      return (
+        <div
+          key={item.id}
+          className="flex justify-between items-center mb-2 border rounded p-2 "
+        >
+          <div>
+            <img alt="food" src={item.image} className="w-28 h-24 rounded" />
+          </div>
+          <div className="flex flex-col content-end">
+            <div className="font-semibold text-sky-500 p-2 uppercase">
+              {item.name}
+            </div>
+            <div className="text-sm p-2">{item.description}</div>
+          </div>
+          <div className="font-semibold text-sky-500 text-center">
+            {item.price}
+          </div>
+        </div>
+      );
     });
   }
 

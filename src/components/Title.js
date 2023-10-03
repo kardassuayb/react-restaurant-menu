@@ -16,7 +16,7 @@ const Title = () => {
     content = <div>Veri Yükleme Hatası!!</div>;
   } else {
     content = data.map((title) => {
-      const header = <div>{title.name}</div>;
+      const header = <div className="text-sky-700 font-bold">{title.name}</div>;
       return (
         <ExpandablePanel key={title.id} header={header}>
           <TitleItem title={title} />
@@ -25,7 +25,9 @@ const Title = () => {
     });
   }
 
-  return <div>{content}</div>;
+  return (
+    <div className="bg-slate-50 rounded opacity-90 background">{content}</div>
+  );
 };
 
 export default Title;

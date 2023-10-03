@@ -72,39 +72,67 @@
             {
             "id":1, 
             "name":"BURRATA", 
-            "image":"Ürün Görseli",
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/burata.jpg&w=200&h=200&zc=4&a=c",
             "description":"%100 Manda sütüyle üretilmiş Buffa mozerellası ve kremasından meydana gelen taze İtalyan peyniri",
             "price":"330.00",
-            "currency":"TRY",
             "titleId": 1
             },		
             {
             "id":2,
             "name":"PASTIRMALI HUMUS", 
-            "image":"Ürün Görseli",
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/pat%C4%B1rmal%C4%B1%20humus.jpg&w=200&h=200&zc=4&a=c",
             "description":"Tahin, Tuz, Sarımsak ve Hatay Humusu",
             "price":"150.00",
-            "currency":"TRY",
+            "titleId": 1
+            },
+            {
+            "id":3, 
+            "name":"Pastırma Turşusu", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-001.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Hacı' nın gün kurusu pastırmasını sızma zeytinyağı, sirke ve sarımsakla marinelendirilmiş soğuk başlangıcıdır.",
+            "price":"170.00",
+            "titleId": 1
+            },		
+            {
+            "id":4,
+            "name":"Gün Kurusu Pastırma", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-011.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Tamamen eski yöntemlerle yapılmış katkı maddesiz boyasız doğal Kayseri pastırmasıdır.",
+            "price":"210.00",
+            "titleId": 1
+            },
+            {
+            "id":5, 
+            "name":"Füme Tabağı", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-027.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Tütsülendirilmiş antrikot dilimleri, akdeniz yeşillikleri ve parmesan peyniri ile servis edilir.",
+            "price":"350.00",
+            "titleId": 1
+            },		
+            {
+            "id":6,
+            "name":"Dana Carpaccio", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/carpaccio.jpg&w=200&h=200&zc=4&a=c",
+            "description":"İnce dövülmüş dana eti roka parmesan peyniri balzamik sirke ve zeytinyağı",
+            "price":"270.00",
             "titleId": 1
             },
             
             {
-                "id":3,
-                "name":"PASTIRMALI MÜCVER", 
-                "image":"Ürün Görseli",
-                "description":"HAVUÇ,KABAK VE KAŞAR PEYNİRİ İLE ELDE ETTİĞİMİZ İÇ HARCI GALETA UNU,PANKO VE YUMURTAYLA KAPLAYIP SÜZME YOĞURT İLE SERVİS EDİYORUZ.",
-                "price":"180.00",
-                "currency":"TRY",
-                "titleId":2
-                },
-                {
-                "id":4,
-                "name":"ATOM KOKOREÇ", 
-                "image":"Ürün Görseli",
-                "description":"Balıkesir atom kokoreç",
-                "price":"280.00",
-                "currency":"TRY",
-                "titleId":2
-                }
+            "id":7,
+            "name":"PASTIRMALI MÜCVER", 
+            "image":"Ürün Görseli",
+            "description":"HAVUÇ,KABAK VE KAŞAR PEYNİRİ İLE ELDE ETTİĞİMİZ İÇ HARCI GALETA UNU,PANKO VE YUMURTAYLA KAPLAYIP SÜZME YOĞURT İLE SERVİS EDİYORUZ.",
+            "price":"180.00",
+            "titleId":2
+            },
+            {
+            "id":8,
+            "name":"ATOM KOKOREÇ", 
+            "image":"Ürün Görseli",
+            "description":"Balıkesir atom kokoreç",
+            "price":"280.00",
+            "titleId":2
+            }
             ]
     }
