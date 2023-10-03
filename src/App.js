@@ -4,7 +4,7 @@ import Title from "./components/Title";
 
 function App() {
   return (
-    <div className="app text-white">
+    <div className="app">
       <Logo />
       <Title />
     </div>

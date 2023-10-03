@@ -1,14 +1,68 @@
 {
     "tabs":[
         {
-        "id":"1", 
+        "id":1, 
         "name":"SOĞUK BAŞLANGIÇLAR", 
         "image":"Sekme Görseli",
         "description":"Sekme Açıklaması"
         },
         {
-        "id":"2",
+        "id":2,
         "name":"SICAK BAŞLANGIÇLAR", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":3, 
+        "name":"ÇORBALAR", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":4,
+        "name":"SALATALAR", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":5, 
+        "name":"IZGARA", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":6,
+        "name":"ŞEFİN MENÜSÜ", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":7, 
+        "name":"BURGER", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":8,
+        "name":"KAHVALTI", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":9,
+        "name":"TATLI", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":10,
+        "name":"İÇECEK", 
+        "image":"Sekme Görseli",
+        "description":"Sekme Açıklaması"
+        },
+        {
+        "id":11,
+        "name":"PİŞMEMİŞ KİLOLUK ÜRÜNLER VE ŞARKÜTERİ", 
         "image":"Sekme Görseli",
         "description":"Sekme Açıklaması"
         }
@@ -16,39 +70,41 @@
     
     "products":[
             {
-            "id":"1", 
+            "id":1, 
             "name":"BURRATA", 
             "image":"Ürün Görseli",
             "description":"%100 Manda sütüyle üretilmiş Buffa mozerellası ve kremasından meydana gelen taze İtalyan peyniri",
             "price":"330.00",
             "currency":"TRY",
-            "userId": 1
+            "titleId": 1
             },		
             {
-            "id":"2",
+            "id":2,
             "name":"PASTIRMALI HUMUS", 
             "image":"Ürün Görseli",
             "description":"Tahin, Tuz, Sarımsak ve Hatay Humusu",
             "price":"150.00",
             "currency":"TRY",
-            "userId": 2
+            "titleId": 1
             },
             
             {
-                "id":"3",
+                "id":3,
                 "name":"PASTIRMALI MÜCVER", 
                 "image":"Ürün Görseli",
                 "description":"HAVUÇ,KABAK VE KAŞAR PEYNİRİ İLE ELDE ETTİĞİMİZ İÇ HARCI GALETA UNU,PANKO VE YUMURTAYLA KAPLAYIP SÜZME YOĞURT İLE SERVİS EDİYORUZ.",
                 "price":"180.00",
-                "currency":"TRY"
+                "currency":"TRY",
+                "titleId":2
                 },
                 {
-                "id":"4",
+                "id":4,
                 "name":"ATOM KOKOREÇ", 
                 "image":"Ürün Görseli",
                 "description":"Balıkesir atom kokoreç",
                 "price":"280.00",
-                "currency":"TRY"
+                "currency":"TRY",
+                "titleId":2
                 }
             ]
     }

@@ -2,17 +2,12 @@ import "./Title.css";
 import React from "react";
 import { useFetchTitleQuery } from "../store";
 import Skeleton from "./Skeleton";
+import ExpandablePanel from "./ExpandablePanel";
 import TitleItem from "./titleItem";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemButton,
-  AccordionItemHeading,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
 
 const Title = () => {
   const { data, error, isFetching } = useFetchTitleQuery();
+  console.log(data);
 
   let content;
   if (isFetching) {
@@ -20,23 +15,17 @@ const Title = () => {
   } else if (error) {
     content = <div>Veri Yükleme Hatası!!</div>;
   } else {
-    content = data.map((title) => (
-      <AccordionItem key={title.id}>
-        <AccordionItemHeading>
-          <AccordionItemButton>{title.name}</AccordionItemButton>
-        </AccordionItemHeading>
-        <AccordionItemPanel>
-          <TitleItem></TitleItem>
-        </AccordionItemPanel>
-      </AccordionItem>
-    ));
+    content = data.map((title) => {
+      const header = <div>{title.name}</div>;
+      return (
+        <ExpandablePanel key={title.id} header={header}>
+          <TitleItem title={title} />
+        </ExpandablePanel>
+      );
+    });
   }
 
-  return (
-    <>
-      <Accordion allowZeroExpanded>{content}</Accordion>
-    </>
-  );
+  return <div>{content}</div>;
 };
 
 export default Title;

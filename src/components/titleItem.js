@@ -1,10 +1,10 @@
 import React from "react";
 import { useFetchTitleItemQuery } from "../store";
 import Skeleton from "./Skeleton";
-import { AccordionItemPanel } from "react-accessible-accordion";
 
-const TitleItem = () => {
-  const { data, error, isFetching } = useFetchTitleItemQuery();
+const TitleItem = ({ title }) => {
+  const { data, error, isFetching } = useFetchTitleItemQuery(title);
+  console.log(data);
 
   let content;
   if (isFetching) {
@@ -12,9 +12,9 @@ const TitleItem = () => {
   } else if (error) {
     content = <div>Veri Yükleme Hatası!!</div>;
   } else {
-    content = data.map((item) => (
-      <AccordionItemPanel key={item.id}></AccordionItemPanel>
-    ));
+    content = data.map((item) => {
+      return <div key={item.id}>{item.name}</div>;
+    });
   }
 
   return <div>{content}</div>;

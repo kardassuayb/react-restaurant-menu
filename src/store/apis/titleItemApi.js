@@ -19,9 +19,12 @@ const titleItemApi = createApi({
   endpoints(builder) {
     return {
       fetchTitleItem: builder.query({
-        query: () => {
+        query: (title) => {
           return {
             url: "/products",
+            params: {
+              titleId: title.id,
+            },
             method: "GET",
           };
         },
