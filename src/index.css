@@ -2,7 +2,9 @@ body {
   margin: 0;
   font-family: "Roboto", Arial !important;
   background-image: url("../public/images/bg-2.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
 }
 
 @tailwind base;

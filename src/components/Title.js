@@ -1,4 +1,3 @@
-import "./Title.css";
 import React from "react";
 import { useFetchTitleQuery } from "../store";
 import Skeleton from "./Skeleton";
@@ -26,7 +25,14 @@ const Title = () => {
   }
 
   return (
-    <div className="bg-slate-50 rounded opacity-90 background">{content}</div>
+    <div
+      className="bg-slate-50 rounded opacity-90"
+      style={{
+        backgroundImage: `url("https://images.unsplash.com/photo-1623062553275-39028026d7be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1490&q=80")`,
+      }}
+    >
+      {content}
+    </div>
   );
 };
 

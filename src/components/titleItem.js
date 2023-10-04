@@ -19,15 +19,19 @@ const TitleItem = ({ title }) => {
           className="flex justify-between items-center mb-2 border rounded p-2 "
         >
           <div>
-            <img alt="food" src={item.image} className="w-28 h-24 rounded" />
+            <img
+              alt="food"
+              src={item.image}
+              className="w-28 h-24 rounded flex-1"
+            />
           </div>
-          <div className="flex flex-col content-end">
+          <div className="flex flex-col content-end flex-1">
             <div className="font-semibold text-sky-500 p-2 uppercase">
               {item.name}
             </div>
             <div className="text-sm p-2">{item.description}</div>
           </div>
-          <div className="font-semibold text-sky-500 text-center">
+          <div className="font-semibold text-sky-500 text-center ">
             {item.price}
           </div>
         </div>

@@ -121,7 +121,7 @@
             {
             "id":7,
             "name":"PASTIRMALI MÜCVER", 
-            "image":"Ürün Görseli",
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/PASTIRMALI%20M%C3%9CCVER(2).jpg&w=200&h=200&zc=4&a=c",
             "description":"HAVUÇ,KABAK VE KAŞAR PEYNİRİ İLE ELDE ETTİĞİMİZ İÇ HARCI GALETA UNU,PANKO VE YUMURTAYLA KAPLAYIP SÜZME YOĞURT İLE SERVİS EDİYORUZ.",
             "price":"180.00",
             "titleId":2
@@ -129,9 +129,81 @@
             {
             "id":8,
             "name":"ATOM KOKOREÇ", 
-            "image":"Ürün Görseli",
+            "image":"https://menunova.com/timthumb.php?src=https://menunova.com/files/2/ATOM.jpg&w=200&h=200&zc=4&a=c",
             "description":"Balıkesir atom kokoreç",
             "price":"280.00",
+            "titleId":2
+            },
+            {
+            "id":9,
+            "name":"PASTIRMALI BÖREK", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/past%C4%B1mal%C4%B1%20b%C3%B6rek.jpg&w=200&h=200&zc=4&a=c",
+            "description":"1 adet servis edilir",
+            "price":"80.00",
+            "titleId":2
+            },
+            {
+            "id":10,
+            "name":"İstiridye Mantarı", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-005.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Zeytinyağı ve tuzla döküm ızgarada pişirilen mantarlar pul biber, limon, kekik ilave edilerek servis edilir.",
+            "price":"140.00",
+            "titleId":2
+            },
+            {
+            "id":11,
+            "name":"Kabak Cipsi", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-006.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Mandolinde ince ince çekilen kabaklar tempura ununda derin yağda kızartılıp yoğurt sosla servis edilir.",
+            "price":"160.00",
+            "titleId":2
+            },
+            {
+            "id":12,
+            "name":"Evlik Sucuk", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-008.jpg&w=200&h=200&zc=4&a=c",
+            "description":"%100 Dana etinden yapmış olduğumuz içeriğinde baharat tuz ve sarımsaktan oluşan tamamen doğal Kayseri sucuğudur.",
+            "price":"140.00",
+            "titleId":2
+            },
+            {
+            "id":13,
+            "name":"Hellimli Fıstıklı Sucuk", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-010.jpg&w=200&h=200&zc=4&a=c",
+            "description":"İçerisinde Antep fıstığı ve hellim peyniri olan kendi üretimimiz baton sucuk 1 ADET OLARAK SERVİS EDİLİR",
+            "price":"70.00",
+            "titleId":2
+            },
+            {
+            "id":14,
+            "name":"Marquez Sosis", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-015.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Kuzu bağırsağına doldurulmuş marquez baharatlı sosis Hacı' nın klasiği 1 ADET OLARAK SERVİS EDİLİR",
+            "price":"70.00",
+            "titleId":2
+            },
+            {
+            "id":15,
+            "name":"Çıtır soğan", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/Hac%C4%B1-017.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Çiçek şeklinde doğranarak açılan soğan un, yumurta ve panko ile panelenerek derin yağda kızartılır. Sweet chili ve tartar sosla servis edilir.",
+            "price":"165.00",
+            "titleId":2
+            },
+            {
+            "id":16,
+            "name":"Sıcak Füme", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/s%C4%B1cak%20f%C3%BCme.jpg&w=200&h=200&zc=4&a=c",
+            "description":"Kızgın döküm tavada ince dilimlenmiş antrikotları nar ile karamelize edip eritilmiş cheddar dökülüp servis edilir.",
+            "price":"290.00",
+            "titleId":2
+            },
+            {
+            "id":17,
+            "name":"EL YAPIMI PATATES KIZARTMASI", 
+            "image":"https://menunova.com/timthumb.php?src=http://menunova.com/files/2/el%20yap%C4%B1m%C4%B1%20patats.jpeg&w=200&h=200&zc=4&a=c",
+            "description":"%100 Dana etinden yapmış olduğumuz içeriğinde baharat tuz ve sarımsaktan oluşan tamamen doğal Kayseri sucuğudur.",
+            "price":"95.00",
             "titleId":2
             }
             ]
