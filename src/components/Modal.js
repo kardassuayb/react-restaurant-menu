@@ -11,12 +11,12 @@ const Modal = ({ onClose, children }) => {
   }, []);
 
   return ReactDOM.createPortal(
-    <div>
+    <div className="fixed inset-0 flex items-center justify-center ">
       <div
         onClick={onClose}
-        className="fixed inset-0 bg-gray-300 opacity-80"
+        className="fixed inset-0 bg-gray-300 opacity-80 "
       ></div>
-      <div className="fixed inset-x-80 inset-y-40 p-10 bg-white rounded-lg">
+      <div className="z-50 bg-white rounded-lg p-6 sm:w-full sm:max-w-md">
         {children}
       </div>
     </div>,
