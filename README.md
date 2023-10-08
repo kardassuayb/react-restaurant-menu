@@ -1,3 +1,12 @@
+I used react redux in this project. I used the redux toolkit query provided by redux to fetch data. For this, I converted the json file to normalized format.
+
+I received the data from Json as {data, error, isFetching} with the destructuring method. Thus, while matching the data with the map method, I prepared a skeleton and error message to display on the screen in case of possible loading delays or errors.
+
+I planned the data retrieval process entirely as lazy loading instead of retrieving all the data at once. While the menu titles that appear on the screen appear when the page is loaded, data about the food contents are retrieved when the relevant menu title is clicked. I also designed the project as responsive. I also used tailwind CSS for styling.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
